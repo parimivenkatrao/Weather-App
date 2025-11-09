@@ -2,58 +2,70 @@
 
 <br/>
 <br/>
+🧭 Overview
 
-With [The Weather Forecasting](https://the-weather-forecasting.netlify.app) user can search locations by city name and observe the weather for the next 5-6 days and 3 hour interval.
-<br />
-The app is developed using React.js and material-UI.
+The Weather Forecasting App
+ allows users to search any city and view accurate weather forecasts for the next 5–6 days, with 3-hour interval updates.
+Built with React.js and Material-UI, it offers a clean, responsive, and user-friendly interface.
 
-<br/>
+🌐 Live Demo
 
-## 💻 Live Demo:
+🔗 Visit the Live App
 
-https://the-weather-forecasting.netlify.app
+⚙️ Getting Started
+1️⃣ Prerequisites
 
-<br/>
+Ensure you have Node.js and npm installed.
 
-## ✨ Getting Started
+Obtain an API key from OpenWeatherMap
+.
+After signing in, you can find your key here
+.
 
-- Make sure you already have `Node.js` and `npm` installed in your system.
-- You need an API key from [OpenWeatherMap](https://openweathermap.org/). After creating an account, [grab your key](https://home.openweathermap.org/api_keys).
-- Then, under the `src` directory, go to `api/OpenWeatherService` and replace `WEATHER_API_KEY` with your OpenWeatherMap API Key.
-  - **`api/OpenWeatherService.js`**: It contains the code related to the back-end of the application.
+2️⃣ Configuration
 
-<br/>
+Under the src/api directory, open the file OpenWeatherService.js.
 
-## ⚡ Install
+Replace the placeholder:
 
-- Clone the repository:
+const WEATHER_API_KEY = "your_api_key_here";
 
-```bash
-git clone https://github.com/Amin-Awinti/the-weather-forecasting.git
 
-```
+with your personal OpenWeatherMap API key.
 
-- Install the packages using the command `npm install`
+⚡ Installation
 
-<br/>
+Clone the repository and install dependencies:
 
-## 📙 Used libraries
+git clone https://github.com/parimivenkatrao/Weather_App.git
+cd Weather_App
+npm install
+npm start
 
-- `react-js`
-- `material-ui`
+🧰 Tech Stack & Libraries
 
-Check `packages.json` for details
+⚛️ React.js – Component-based frontend framework
 
-<br/>
+🎨 Material-UI – Pre-styled React components for modern UI
 
-## 📄 Todos
+🌦️ OpenWeather API – Real-time weather data provider
 
-- [ ] Styled-components
-- [ ] Convert the entire project to TypeScript
-- [ ] Unit Testing
-- [ ] On launch, find user location weather by utilizing GeolocationAPI/GEOCODING
-- [ ] Celcius/Fahrenheit conversion
-- [ ] Dark/Light Mode
+Check package.json for full dependency list.
 
-<br/>
-Thank You ☺
+🧩 Future Enhancements
+
+ Add Styled-components for better UI customization
+
+ Convert project to TypeScript
+
+ Implement Unit Testing
+
+ Auto-detect user location using Geolocation API
+
+ Celsius/Fahrenheit toggle
+
+ Add Dark/Light mode support
+
+🙏 Thank You!
+
+Made with ❤️ by Venkatarao Parimi
